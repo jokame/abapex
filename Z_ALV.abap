@@ -70,5 +70,5 @@ CALL FUNCTION 'REUSE_ALV_GRID_DISPLAY'
     .
 
 IF sy-subrc <> 0.
-  WRITE 'Nada'.
+  WRITE 'Ocurrió un error'.
 ENDIF.
